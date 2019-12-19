@@ -1,0 +1,141 @@
+.box1{
+    background-color: rgb(250, 246, 246);
+    border-bottom: 2px solid rgb(65, 190, 65);
+    padding: 8px;
+}
+#logo-holder{
+    padding-top: 10px;
+}
+.logo{
+    height:8vh ;
+}
+.logo_title{
+    font-family:fantasy;
+    color: green;
+    font-size: larger;
+    
+}
+.status-nav{
+    padding-top: 25px;
+    padding-left: 15rem;  
+}
+#home-icon{
+    padding-right: 3rem;
+    color: green;
+    
+}
+#home-icon:hover{
+    color:rgb(250, 142, 205);
+    text-decoration-line: none;
+}
+
+#carousel-slide{
+    height: 90vh;
+    border-bottom: 2px solid green;
+    background-color: black;
+}
+.image-slides{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.8;
+}
+.box2{
+    border-bottom: 1px solid green;
+}
+#writeup{
+    border-bottom: 1px solid green;
+    padding-top: 10px;
+}
+.read-more{
+    color: green;
+    font-weight: 500;
+}
+.read-more:hover{
+    color:rgb(250, 142, 205);
+}
+.divquote{
+
+    margin: auto;
+}
+.quote{
+    color: green;
+    background-color: rgb(250, 142, 205);
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: large;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 30%;
+}
+.quote:hover{
+    color: white;
+    background-color: green;
+}
+#stment{
+     
+    padding-top: 10px;
+}
+#mission{
+    color: green;
+}
+.mission-tag{
+    margin: auto;
+}
+.stment-img{
+height: 10vh;  
+}
+#h3-application{
+    color: green;
+}
+#box3{
+    border-bottom: 1px solid green;
+    padding-bottom: 20px;
+}
+.apply-image{
+    width: 99%;
+    height: 99vh;  
+}
+.applyBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: green;
+    border-radius: 10%;
+    background-color: rgb(250, 142, 205);
+    border: 1px solid green;
+}
+.applyBtn:hover{
+    color: white;
+    background-color: green;
+    text-decoration-line: none;
+}
+#phone-num{
+    font-weight: 500;
+}
+#link-to-apply{
+    color: green;
+    font-weight: 500;
+    font-style: italic;
+    font-size: larger;
+}
+#link-to-apply:hover{
+    color: rgb(250, 142, 205);
+}
+#testmonial{
+    text-align: center;
+    font-size: 3em;
+}
+#stu-testmonial{
+    background-color: green;
+    height: 70vh;
+}
+#test_img{
+    border-radius: 50%;
+    width: 40%;
+}
+.footer{
+    
+    
+    
+}
