@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rose tony Programs</title>
+        <title>Rose Tony Foundation</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/html5reset-1.6.1.css">
@@ -10,11 +10,11 @@
         <link rel="stylesheet" type="text/css" href="css/rose_tony.css">
     </head>
     <body>
-        <section class="container-fluid" id="container1">
+        <section class="container-fluid" id="container1" style="border-bottom: 1px solid #b3006e;">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light col-sm-12 col-xs-12" id="box1">
                     <a class="navbar-brand" href="">
-                        <img class="logo" src="images/logo2.png">
+                        <img class="logo" src="images/logo2.png" alt="logo">
                         <a class="logo_title" id="logo_title">THE ROSE TONY FOUNDATION</a>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navBarToggler">
@@ -26,7 +26,7 @@
                             <a class="nav-link" id="home-icon" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="home-icon" href="#">About Us</a>
+                            <a class="nav-link" id="home-icon" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="home-icon" href="programs.html">Our Programs</a>
@@ -42,45 +42,33 @@
                 </nav>
             </div>
         </section>
-        <section class="container">
+        <section class="container py-2 pt-4" id="loginContainer" style="margin-top: 20px;">
             <div class="row">
-                <div class="col-md-12">
-                    <h6 class="py-4" style="font-size: 30px; font-family:Verdana, Geneva, Tahoma, sans-serif; color: rgb(0, 255, 98);">Our Programs...</h6>
-                    <img class="img-fluid" src="images/awardees21.jpg">
-                  <p> 
-                     The Rose Tony Foundation 13th schorlarship award on the   31st of December,2019  recorded the presence of very distinguished dignitaries who  showed their massive support for the Foundation.There were over 60 scholars that were awarded the schorlarship. These schorlars were able to proof their intelligence both in the written and oral exams. 
-                   </p> 
+                <div class="col-md-6 pt-4">
+                    <p class="loginDetails">Please sign in to view your profile</p>
+                </div>
+                <div class="col-md-6 pt-4">
+                    <p class="loginDetails"> Dont have an account? <a href="login.html">Create an account</a></p>
                 </div>
             </div>
-        </section>
-        <div class="container-fluid" id="box6">
+            <section class="container py-2">
                 <div class="row">
-                   <div class="col-md-12">
-                       <div class="row">
-                           <div class="col-md-3 pt-2">
-                                <p>Contact us<br>
-                                    <i class="fa fa-phone">+234</i><br>
-                                    <i class="fa fa-whatsapp">+234</i><br>
-                                    <a href="" class="text-light"><i class="fa fa-twitter"></i>@roseTonyFoundation</a><br>
-                                    <i class="fa fa-facebook"> Rose Tony Foundation</i><br>
-                                    <i class="fa fa-envelope"> ogukaconfidence@gmail.com</i>
-                                </p>  
-                           </div>
-                           <div class="col-md-3 pt-2">
-                               <p>Our Partners<br>
-                                <a href="" class="text-light">ROUDO CONSTRUCTIONS</a>
-                            </p>
-                           </div>
-                           <div class="col-md-3 pt-2">
-                               <p>News and Updates<br>
-                                    <a href="" class="text-light">Latest News</a>
-                               </p>
-                           </div>
-                           <div class="col-md-3 pt-2">FAQs</div>
-                       </div>
+                    <div class="col-md-12">
+                        <div>
+                            <p class="loginDetails">Email Address</p>
+                            <input type="text" placeholder="name@example.com" value="">
+                        </div>
+                        <div>
+                            <p class="loginDetails pt-4">Password</p>
+                            <input type="password" placeholder="input password" value="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center pt-4">
+                        <button style="background-color: #b3006e; color:white; padding:10px 40px; font-size:20px; border-radius: 7%; height: 10vh;">Submit</button>
                    </div>
                 </div>
-            </div>
+            </section>
+        </section>
     </body>
     <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="bootstrap4.0/js/bootstrap.min.js"></script>
